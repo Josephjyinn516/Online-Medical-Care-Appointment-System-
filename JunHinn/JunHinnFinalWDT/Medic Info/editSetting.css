@@ -1,0 +1,312 @@
+                                                                                                    
+body {
+    background-color:#58a62e;
+}
+
+.profile {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    left: 520px;
+    top: 40px;
+    border-radius: 50%;
+    background: #61A6D8;
+    border: 17px solid #ececec;
+}
+
+.basic-info-rect {
+    position: absolute;
+    width: 500px;
+    height: 260px;
+    left: 400px;
+    top: 350px;
+    background: #A8FF73;
+    border-radius: 20px;
+}
+
+.line {
+    position: absolute;
+    width: 460px;
+    height: 0px;
+    left: 20px;
+    top: 110px;
+
+    border: 1px solid #959595;
+}
+
+p1 {
+    position: absolute;
+    width: 184px;
+    height: 24px;
+    left: 25px;
+    top: 25px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+
+}
+
+.name input {
+    position: absolute;
+    width: 262px;
+    height: 40px;
+    left: 27px;
+    top: 65px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+    background-color: #A8FF73;
+    border: none !important;
+    color: #000000;
+
+}
+
+.gender select {
+    position: absolute;
+    width: 440px;
+    height: 40px;
+    left: 27px;
+    top: 118px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+    background-color: #A8FF73;
+    border: none !important;
+    color: #000000;
+
+}
+
+.ic input {
+    position: absolute;
+    width: 262px;
+    height: 40px;
+    left: 27px;
+    top: 165px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+    background-color: #A8FF73;
+    border: none !important;
+    color: #000000;
+
+}
+
+.age input {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 27px;
+    top: 218px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+    background-color: #A8FF73;
+    border: none !important;
+    color: #000000;
+
+}
+
+.email input {
+    position: absolute;
+    width: 262px;
+    height: 40px;
+    left: 27px;
+    top: 65px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+    background-color: #A8FF73;
+    border: none !important;
+    color: #000000;
+
+}
+
+.tel input {
+    position: absolute;
+    width: 262px;
+    height: 40px;
+    left: 27px;
+    top: 118px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+    background-color: #A8FF73;
+    border: none !important;
+    color: #000000;
+
+}
+
+p {
+    position: absolute;
+    width: 262px;
+    height: 99px;
+    left: 27px;
+    top: 50px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+    color: #000000;
+
+}
+
+.spec select {
+    position: absolute;
+    width: 450px;
+    height: 40px;
+    left: 27px;
+    top: 118px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+    background-color: #A8FF73;
+    border: none !important;
+    color: #000000;
+
+}
+
+.pass input {
+    position: absolute;
+    width: 262px;
+    height: 40px;
+    left: 27px;
+    top: 65px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+    background-color: #A8FF73;
+    border: none !important;
+    color: #000000;
+
+}
+
+
+.line1 {
+    position: absolute;
+    width: 460px;
+    height: 0px;
+    left: 20px;
+    top: 160px;
+
+    border: 1px solid #959595;
+}
+
+.line2 {
+    position: absolute;
+    width: 460px;
+    height: 0px;
+    left: 20px;
+    top: 210px;
+
+    border: 1px solid #959595;
+}
+
+
+.edit1 {
+    position: absolute;
+    left: 450px;
+    top: 80px;
+    cursor: pointer;
+}
+
+.edit2 {
+    position: absolute;
+    left: 450px;
+    top: 128px;
+    cursor: pointer;
+}
+
+.edit3 {
+    position: absolute;
+    left: 450px;
+    top: 128px;
+    cursor: pointer;
+}
+
+.edit3 {
+    position: absolute;
+    left: 450px;
+    top: 178px;
+    cursor: pointer;
+}
+
+.edit4 {
+    position: absolute;
+    left: 450px;
+    top: 228px;
+    cursor: pointer;
+}
+
+.contact-info-rect {
+    position: absolute;
+    width: 500px;
+    height: 170px;
+    left: 400px;
+    top: 650px;
+    background: #A8FF73;
+    border-radius: 20px;
+}
+
+.doctor-info-rect {
+    position: absolute;
+    width: 500px;
+    height: 170px;
+    left: 400px;
+    top: 860px;
+
+    background: #A8FF73;
+    border-radius: 20px;
+}
+
+
+.privacy-info-rect {
+    position: absolute;
+    width: 500px;
+    height: 130px;
+    left: 1px;
+    top: 215px;
+
+    background: #A8FF73;
+    border-radius: 20px;
+}
+

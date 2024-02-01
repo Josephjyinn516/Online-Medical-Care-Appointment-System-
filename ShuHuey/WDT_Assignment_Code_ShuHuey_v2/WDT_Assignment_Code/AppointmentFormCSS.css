@@ -1,0 +1,243 @@
+table.myform{
+    width: 100%;
+    align-content: flex-start;
+}
+
+.labelTitle{
+    font-size: large;
+}
+
+#note{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: red;
+    font-style: italic;
+}
+
+.tableContainer{
+    box-sizing: border-box;
+    justify-content: center; /*change here after editing table container*/
+    max-width: 80%;
+    max-height: max-content;
+    left: 289px;
+    top: 200px;
+    background: #FFFFFF;
+    border-top: 5px solid #3BF1A6;
+    border-radius: 6px;
+    margin: auto;
+}
+
+
+input[type=submit],input[type=reset]{
+    font-size: larger;
+    font-weight: bold;
+    width: 25em;  
+    height: 2em;
+    padding: 5px 5px 5px 5px;
+    border-color: #3BF1A6;
+    background-color: rgba(127, 255, 212, 0.115);
+    color: #13e85e;
+    /* float: left; */
+}
+
+input[type=submit]:hover,input[type=reset]:hover{
+    background-color: #13e85e;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.submitresetbuttoncontainer{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+input[type=text],input[type=number],input[type=email],select,textarea{
+    width: 95%; 
+    height: 25px;
+    /* color: #00c545; */
+    /* font-weight: bold; */
+}
+
+input[type=date]{
+    width: 14.7%;
+    height: 25px;
+}
+
+select#selectTime{
+    margin-top: 1em; 
+    margin-bottom: 5px;
+}
+
+/* textarea::placeholder{
+    color: #00c545;
+    font-weight: bold;
+} */
+
+.labelfontSize{
+    font-size: 20px;
+}
+
+.labelfontSpacing{
+    margin: 0px 0px 5px 0px;
+}
+
+.labelFont{
+    color: #3E8E5A;
+}
+
+/* textarea{
+    width: 300px; 
+    height: 80px;
+} */
+
+table{
+    vertical-align: middle;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+}
+
+.centerUpperBox{
+    box-sizing: border-box;
+    justify-content: space-evenly; 
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 861px;
+    height: 80px;
+    background: #FFFFFF;
+    border-top: 5px solid #5F3BF1;
+    border-radius: 6px;
+    padding-top: 13px;
+}
+
+#makeAnApp{
+    align-content: center;
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 391px;
+    height: 45px;
+    /* left: 308px;
+    top: 117px; */
+    background: #001AFF;
+    border: 1px solid #001AFF;
+    border-radius: 8px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    /* padding-top: 17.5px; */
+}
+
+#manageApp{
+    align-content: center;
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 391px;
+    height: 45px;
+    /* left: 735px;
+    top: 117px; */
+    border: 1px solid #001AFF;
+    border-radius: 8px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #001AFF;
+}
+
+input,textarea,select,option{
+    font-family: 'DM Sans';
+}
+
+input[type=button]:hover{
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.232);
+}
+
+input:focus:valid{
+    background-color: rgb(109, 255, 209);
+}
+    
+input:focus:invalid{
+    background-color: rgb(255, 124, 124);
+    /* input:focus:hover{background-color: blueviolet;} */
+}
+    
+.tableTitle{
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #3BF1A6;
+}
+
+
+
+img#infoImage{
+    width: 27px;
+    height: 27px;
+}
+
+.redColorRequired{
+    color: red;
+    font-weight: bold;
+}
+
+.transparentContainer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.greenContainer{
+    box-sizing: border-box;
+    position: relative;
+    vertical-align: baseline;
+    width: 1050px;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgba(0, 165, 97, 0.2);
+    border-top: 4px solid rgba(0, 181, 67, 0.58);
+    border-radius: 6px;
+}
+
+.redContainer{
+    box-sizing: border-box;
+    position: relative;
+    vertical-align: baseline;
+    width: 1050px;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: rgba(165, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+
+.blueContainer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    border: 1px solid #001AFF;
+    background-color: azure;
+}
+
+
+#clickOnInfoImage{   /* remove all the default button style */
+    all: unset;
+}

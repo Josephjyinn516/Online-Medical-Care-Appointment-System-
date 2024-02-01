@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sign Up</title>
+        <link href="signup.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+        <script src="multiuse.js"></script>
+    </head>
+
+    <body>
+        <br>
+            <!--the icon/title-->
+            <img src="img/Green House Care Real Estate Logo.png">
+            <h2>Sign Up</h2>
+            <p>Sign up now and start to book<br>an appointment with our professional doctor</p>
+
+        <form method="post" action="patientInsert.php" onsubmit="return validation()">
+            <!--first row sign up information-->
+            <div class="first-row">
+                <input type="text" name="registerName" id="registerName" placeholder="Your Name" required/>
+
+                <input type="number" name="registerIC" id="registerIC" placeholder="Your IC" required/>
+
+            </div>
+
+            <!--second row sign up information-->
+            <div class="second-row">
+
+                <select name="registerGender" id="registerGender" required="required">
+                    <option value="Mr.">Mr.</option>
+                    <option value="Mrs.">Mrs.</option>
+                </select>
+
+                <input type="email" name="registerEmail" id="registerEmail" placeholder="Your email" required/>
+
+            </div>
+
+            <!--third row sign up information-->
+            <div class="third-row">
+
+                <input type="number" name="registerPhone" id="registerPhone" placeholder="Tel. No" required>
+
+                <input type="password" name="registerPass1" id="registerPass1" placeholder="Your password"required/>
+
+            </div>
+
+            <!--four row sign up information-->
+            <div class="four-row">
+
+                <input type="number" name="registerAge" id="registerAge" placeholder="Age" required>
+
+                <input type="password" name="registerPass2" id="registerPass2" placeholder="Re-enter Your password"required/>
+
+            </div>
+
+            <div class="five-row">
+
+                <input type="submit" name="signup" id="signup" value="Sign Up">
+
+            </div>
+        </form>
+    </body>
+</html>

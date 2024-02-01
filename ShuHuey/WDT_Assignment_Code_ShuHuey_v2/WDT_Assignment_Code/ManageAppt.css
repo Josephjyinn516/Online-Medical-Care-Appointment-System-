@@ -1,0 +1,254 @@
+.tableContainer{
+    box-sizing: border-box;
+    justify-content: center; /*change here after editing table container*/
+    max-width: 95%;
+    max-height: max-content;
+    left: 289px;
+    top: 20px;
+    background: #FFFFFF;
+    border-top: 5px solid #01A9B2;
+    border-radius: 6px;
+    margin: auto;
+}
+
+.centerUpperBox{
+    box-sizing: border-box;
+    justify-content: space-evenly; 
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 861px;
+    height: 80px;
+    background: #FFFFFF;
+    border-top: 5px solid #5F3BF1;
+    border-radius: 6px;
+    padding-top: 13px;
+}
+
+#manageApp{
+    align-content: center;
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 391px;
+    height: 45px;
+    /* left: 308px;
+    top: 117px; */
+    background: #001AFF;
+    border: 1px solid #001AFF;
+    border-radius: 8px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    /* padding-top: 17.5px; */
+}
+
+#makeAnApp{
+    align-content: center;
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 391px;
+    height: 45px;
+    /* left: 735px;
+    top: 117px; */
+    border: 1px solid #001AFF;
+    border-radius: 8px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #001AFF;
+}
+
+img#infoImage{
+    width: 27px;
+    height: 27px;
+}
+
+
+.tableTitle{
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #01A9B2;
+}
+
+body{
+    background-image: url("img/doctor-shows-contact-icons-emergency-medical-care-doctor-shows-contact-icons-emergency-medical-care-network-168988426.jpg");
+      /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'DM Sans';
+}
+
+input[type=button]:hover{
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.232);
+}
+
+table#bigTable{
+    vertical-align: middle;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    /* border: 1px solid #001AFF;  */  /*remember to delete after editing content*/
+    width: 97%;
+}
+
+
+table#bookmarkTable{
+    vertical-align: top;
+    text-align: left;
+    /* width: 99%; */
+    border: 1px solid rgba(57, 206, 159, 0.55);
+    border-radius: 6px;
+}
+
+table#bookmarkTable tr td a:hover{
+    color: rgb(57, 206, 158);
+    /* text-shadow: rgb(255, 255, 255) 1px 0 5px; */
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+/* table#bookmarkTable tr td{
+    padding-left: 10px;
+} */
+
+table#successfulTable{
+    vertical-align: middle;
+    text-align: left;
+    /* margin: 20px 20px 20px 20px; */
+    margin-top: 10px;
+    /* border: 1px solid;  remember to delete after editing content */
+    width: 100%;
+}
+
+
+
+table#successfulTable tr.FirstRow th{
+    background: #c1ffbf;
+    position: sticky;
+    top: 0;   /* Don't forget this, required for the stickiness */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+table#successfulTable tr:nth-child(even) {
+    background-color: rgb(224, 255, 215,0.5);
+}
+
+
+.centerText{
+    text-align: center;
+}
+
+
+td.viewDetails img{
+    width: 40px;
+    /* height: 10px; */
+    /* image size? */
+}
+
+td.numberCounter{
+    width: 30px;
+}
+
+td.viewDetails{
+    color: rgb(160, 160, 160);
+    font-weight: 400;
+    width: 70px;
+}
+
+td.cancelAppt{
+    /* color: rgb(255, 0, 0); */
+    color: #234e22;
+    font-weight: 900;
+    text-decoration: underline;
+    width: 120px;
+}
+
+td.viewDetails,td.cancelAppt{
+    text-align: center;
+}
+
+
+table#pendingTable{
+    vertical-align: middle;
+    text-align: left;
+    /* margin: 20px 20px 20px 20px; */
+    margin-top: 10px;
+    /* border: 1px solid;  remember to delete after editing content */
+    width: 100%;
+}
+
+table#pendingTable tr.FirstRow th{
+    background: orange;
+    position: sticky;
+    top: 0;   /* Don't forget this, required for the stickiness */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+table#pendingTable tr:nth-child(even) {
+    background-color: rgba(255, 237, 204, 0.5);
+}
+
+
+table#failTable{
+    vertical-align: middle;
+    text-align: left;
+    /* margin: 20px 20px 20px 20px; */
+    margin-top: 10px;
+    /* border: 1px solid;  remember to delete after editing content */
+    width: 100%;
+}
+
+table#failTable tr.FirstRow th{
+    background: red;
+    position: sticky;
+    top: 0;   /* Don't forget this, required for the stickiness */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+table#failTable tr:nth-child(even) {
+    background-color: rgba(255, 225, 225, 0.5);
+}
+
+
+.transparentContainer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blueContainer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    border: 1px solid #001AFF;
+    background-color: azure;
+}
+
+
+.transparentContainer1{
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+#clickOnInfoImage{   /* remove all the default button style */
+    all: unset;
+}

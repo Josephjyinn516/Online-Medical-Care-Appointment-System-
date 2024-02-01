@@ -1,0 +1,416 @@
+body{
+    background-image: url(img/doctor-shows-contact-icons-emergency-medical-care-doctor-shows-contact-icons-emergency-medical-care-network-168988426.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+header{
+    background-color: #ececec;
+    height: 90px;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+#signUp{
+    color: #ffffff;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#icon{
+    float: left;
+}
+
+img{
+    width: 150px;
+    height: 80px;
+    margin: -35%;
+    margin-left: 2%;
+    
+}
+
+input{
+    cursor:pointer; 
+    background-color:#13e85e; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 3px; 
+    width: 130px; 
+    height: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.background {
+    background-image: url("Medic Info.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    width: 1183px;
+    height: 768px;
+    opacity: 0.3;
+}
+
+
+.userBack {
+    position: absolute;
+    width: 118px;
+    height: 50px;
+    left: 1040px;
+    top: 20px;
+
+    background: #FDFD96;
+    border-radius: 20px;
+}
+
+.userIcon {
+    position: absolute;
+    left: 1060px;
+    top: 35px;
+}
+
+.bell {
+    position: absolute;
+    cursor: pointer;
+    left: 940px;
+    top: 36px;
+}
+
+.cld {
+    position: absolute;
+    left: 990px;
+    top: 36px;
+    cursor: pointer;
+}
+
+.cd {
+    position: absolute;
+    left: 1120px;
+    top: 35px;
+    cursor: pointer;
+}
+
+ta {
+    position: absolute;
+    width: 648px;
+    height: 95px;
+    left: 30px;
+    top: 100px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    display: flex;
+
+    color: #000000;
+}
+
+ua {
+    position: absolute;
+    width: 571px;
+    height: 95px;
+    left: 630px;
+    top: 100px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    display: flex;
+
+    color: #000000;
+}
+
+.tCard {
+    position: absolute;
+    width: 520px;
+    height: 650px;
+    left: 30px;
+    top: 170px;
+
+    background: linear-gradient(180deg, #13E85E 0%, rgba(19, 232, 94, 0) 100%);
+    border-radius: 30px;
+}
+
+.upCard {
+    position: absolute;
+    width: 520px;
+    height: 650px;
+    left: 630px;
+    top: 170px;
+
+    background: linear-gradient(180deg, #13E85E 0%, rgba(19, 232, 94, 0) 100%);
+    border-radius: 30px;
+}
+
+tDay {
+    position: absolute;
+    width: 101px;
+    height: 80px;
+    left: 30px;
+    top: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 61px;
+    display: flex;
+
+    color: #000000;
+}
+
+tm {
+    position: absolute;
+    width: 264px;
+    height: 80px;
+    left: 30px;
+    top: 65px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+ty {
+    position: absolute;
+    width: 264px;
+    height: 80px;
+    left: 130px;
+    top: 65px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.line {
+    position: absolute;
+    width: 450px;
+    height: 0px;
+    left: 30px;
+    top: 140px;
+
+    border: 1px solid #000000;
+}
+
+.acceptedApp {
+    position: absolute;
+    width: 475px;
+    height: 105px;
+    left: 20px;
+    top: 155px;
+
+    background: #a2ff90;
+    border-radius: 30px;
+}
+
+.acceptedApp p {
+    position: absolute;
+    left: 20px;
+    top: 17px;
+    font-size: 25px;
+}
+
+.acceptedApp ul {
+    text-align: center;
+    font-size: larger;
+}
+
+.box {
+    position: absolute;
+    width: 1000px;
+    height: 550px;
+    left: 100px;
+    top: 120px;
+    visibility: hidden;
+    background: rgba(217, 217, 217, 0.9);
+}
+
+.box h1 {
+    position: absolute;
+    width: 653px;
+    height: 62px;
+    left: 20px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    display: flex;
+
+    color: #000000;
+}
+
+.box .appBox {
+    position: absolute;
+    width: 960px;
+    height: 105px;
+    left: 20px;
+    top: 70px;
+    background: #DFAEAE;
+    border-radius: 30px;
+}
+
+.box .acceptBtn {
+    position: absolute;
+    width: 149px;
+    height: 53px;
+    left: 630px;
+    top: 35px;
+    cursor: pointer;
+
+    background: #66FF08;
+    border-radius: 30px;
+}
+
+.box .declineBtn {
+    position: absolute;
+    width: 149px;
+    height: 53px;
+    left: 800px;
+    top: 35px;
+    cursor: pointer;
+
+    background: #FF0000;
+    border-radius: 30px;
+}
+
+.box .decline button {
+    position: absolute;
+    width: 127px;
+    height: 35px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    padding: 3px 30px;
+
+    color: #000000;
+}
+
+.box .accept button {
+    position: absolute;
+    width: 127px;
+    height: 35px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    padding: 3px 30px;
+
+    color: #000000;
+}
+
+.open-popup {
+    visibility: visible;
+}
+
+.esc {
+    position: absolute;
+    left: 950px;
+    top: 23px;
+}
+
+.sub-menu-wrap {
+    position: absolute;
+    width: 279px;
+    height: 237px;
+    left: 880px;
+    top: 75px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 400px;
+}
+
+.sub-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 10px 10px;
+    isolation: isolate;
+    background: #FDFD96;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info h3 {
+    font-weight: 500;
+}
+
+.userIcon {
+    margin-right: 15px;
+}
+
+.uI {
+    margin-right: 15px;
+}
+
+.sub-menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+
+.sub-menu-link p {
+    width: 100%;
+}
+
+.sub-menu-link .sP {
+    margin-right: 15px;
+}
+
+.sub-menu-link .lO {
+    margin-right: 15px;
+}

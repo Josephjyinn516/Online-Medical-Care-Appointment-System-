@@ -1,0 +1,176 @@
+body{
+    background-image: url(img/doctor-shows-contact-icons-emergency-medical-care-doctor-shows-contact-icons-emergency-medical-care-network-168988426.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*header design*/
+
+header{
+    background-color: #ececec;
+    height: 90px;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#icon{
+    float: left;
+}
+
+img{
+    width: 150px;
+    height: 70px;
+    margin: -35%;
+    margin-left: 2%;
+}
+
+input{
+    cursor:pointer; 
+    background-color:#13e85e; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 3px; 
+    width: 130px; 
+    height: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#navigationMenu{
+    float: right;
+    margin-right: 2%;
+    margin-top: 1.5%;
+}
+
+#navigationMenu li{
+    display: inline-block;
+    margin: 10px;
+}
+
+/*title/pageone design*/
+
+.pageone{
+    margin-left:10% ;
+    padding: 180px 0 355px;
+    
+}
+
+h1{
+    color: white;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    -webkit-text-stroke: 0.08px black;
+    font-size: 72px;
+    line-height: 24px;
+}
+
+p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/*pagetwo/customer review design*/
+
+.pagetwo{
+    text-align: center;
+    background-color: #eaeaea;
+    padding: 70px 0 170px;
+    width: auto;
+    font-size: 24px;
+}
+
+.row{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+#review-name{
+    font-size: 15px;
+    color: #757575;
+}
+
+/*the review star*/
+span{
+    color: #3261E9;
+}
+
+/*footer design*/
+
+footer{
+    background-color: #f2f2f2;
+}
+
+#icon2{
+    float: left;
+    margin-left: 43%;
+
+}
+
+#copyright{
+    float: left;
+    margin-left: 37.5%;
+}
+
+.mediaAndContact{
+    width: 100%;
+    display: flex;
+}
+
+.mediaAndContact div{
+    margin-left: 2%;
+}
+
+.FB{
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    color: #13e85e;
+}
+
+.IG{
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    margin-top:8%;
+    color: #13e85e;
+}
+
+.message{
+    margin-top:6%;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    color: #13e85e;
+}
+
+.phone{
+    margin-top:6%;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    color: #13e85e;
+}
+

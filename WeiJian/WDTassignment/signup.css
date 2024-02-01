@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    font-family: "DM Sans";
+}
+
+/*signup heading design*/
+h2{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+/*description below login heading*/
+p{
+    color: #999999;
+}
+
+/*input design*/
+input{
+    width: 340px;
+    height: 45px;
+    border:1px solid #dadada;
+    border-radius: 5px;
+    padding-left: 12px;
+    margin: 13px;
+
+}
+
+/*gender selection design*/
+select{
+    width: 360px;
+    height: 50px;
+    border:1px solid #dadada;
+    border-radius: 5px;
+    padding-left: 12px;
+    margin: 13px;
+}
+
+/*signup button*/
+#signup{
+    cursor:pointer; 
+    background-color:#13e85e; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+#signup:hover, #signup:active, #signup:focus{
+    background-color: #13d658;
+}

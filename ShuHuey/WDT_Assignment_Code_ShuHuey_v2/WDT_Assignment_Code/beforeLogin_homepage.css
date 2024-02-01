@@ -1,0 +1,132 @@
+body{
+    background-image: url(img/doctor-shows-contact-icons-emergency-medical-care-doctor-shows-contact-icons-emergency-medical-care-network-168988426.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*header design*/
+
+header{
+    background-color: #ececec;
+    height: 90px;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+ul li.tab{
+    list-style-type: none;
+}
+
+#icon{
+    float: left;
+}
+
+img.logoimage{
+    width: 150px;
+    height: 70px;
+    margin: -35%;
+    margin-left: 2%;
+    
+}
+
+/*for user profile icon only*/
+#userprofile{
+    width: 70px;
+}
+
+input.signuplogin{
+    cursor:pointer; 
+    background-color:#13e85e; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 3px; 
+    width: 130px; 
+    height: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#navigationMenu{
+    float: right;
+    margin-right: 2%;
+    margin-top: 1.5%;
+}
+
+#navigationMenu li{
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+/*footer design*/
+
+footer{
+    background-color: #f2f2f2;
+}
+
+#icon2{
+    float: left;
+    margin-left: 43%;
+
+}
+
+#copyright{
+    float: left;
+    margin-left: 37.5%;
+}
+
+.mediaAndContact{
+    width: 100%;
+    display: flex;
+}
+
+.mediaAndContact div{
+    margin-left: 2%;
+}
+
+.FB{
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    color: #13e85e;
+}
+
+.IG{
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    margin-top:8%;
+    color: #13e85e;
+}
+
+.message{
+    margin-top:6%;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    color: #13e85e;
+}
+
+.phone{
+    margin-top:6%;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    color: #13e85e;
+}
+

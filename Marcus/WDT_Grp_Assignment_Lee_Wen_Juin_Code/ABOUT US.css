@@ -1,0 +1,173 @@
+#AboutUsHead {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 224px;
+    left: 0px;
+    top: 80px;
+
+    background: #13E85E;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.AboutUsText1 {
+    /* About Us A brief information about us, Elderly Home. Our Service, Our Moto. */
+    margin-left: 30%;
+    width: 532px;
+    height: 0px; /* gap between about us text 1 and text 2 */
+    left: 438px;
+
+    /* Text */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    /* or 19% */
+
+    text-align: center;
+    color: #000000;
+}
+
+.AboutUsText2 {
+    /* About Us A brief information about us, Elderly Home. Our Service, Our Moto. */
+    margin-left: 30%;
+    width: 532px;
+    height: 133px;
+    left: 438px;
+
+    /* Text */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    /* or 120% */
+
+    text-align: center;
+    color: #000000;
+}
+
+.AboutUspageone {
+    size: fixed;
+    height: 800px;
+    width: auto;
+}
+#picturecontainer {
+    text-align: center;
+}
+
+.page1picture {
+    margin: 0 50px 0 50px;
+    width: 274px;
+    height: 265px;
+    border-radius: 100px;
+    margin-top: 320px;
+}
+
+.page1pictureText {
+
+    display: inline-block;
+    font-family: 'DM Sans';
+    width: 300px;
+    margin: 0 50px 0 50px;
+    margin-top: 50px;
+
+}
+.AboutUspagetwo{
+    background-color: #27ed6d;
+    height: 1024px;
+    width: 1440px;
+}
+
+.oldfolksimg {
+    padding: 0 40px;
+    width: 490px;
+    height: 490px;
+    margin-top: 251px;
+    border-radius: 100px;
+}
+
+.page2pictureText1 {
+    position: absolute;
+    width: 871px;
+    height: 231px;
+    left: 595px;
+    margin-top: -100px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.page2pictureText2 {
+    position: absolute;
+    width: 500px;
+    height: 231px;
+    left: 658px;
+    margin-top: 140px;
+    line-height: normal;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.AboutUspagethree{
+    background-color:#13E85E;
+    height: 1024px;
+    width: 1440px;
+}
+
+.page3doctorpicture {
+    padding: 0 80px;;
+    width: 251px;
+    height: 258px;
+    border-radius: 150px;
+    margin: 0 100px 0 100px;
+    margin-top: 70px;
+}
+
+.page3pictureText1 {
+    position: absolute;
+    width: 871px;
+    height: 231px;
+    left: 595px;
+    margin-top: -600px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.page3pictureText2 {
+    position: absolute;
+    width: 600px;
+    height: 231px;
+    left: 600px;
+    margin-top: -450px;
+    line-height: normal;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

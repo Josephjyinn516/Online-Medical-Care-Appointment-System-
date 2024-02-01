@@ -1,0 +1,75 @@
+body{
+    background-image: url(img/doctor-shows-contact-icons-emergency-medical-care-doctor-shows-contact-icons-emergency-medical-care-network-168988426.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+header{
+    background-color: #ececec;
+    height: 90px;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+#signUp{
+    color: #ffffff;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#icon{
+    float: left;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin: -35%;
+    margin-left: 2%;
+    
+}
+
+input{
+    cursor:pointer; 
+    background-color:#13e85e; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 3px; 
+    width: 130px; 
+    height: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#navigationMenu{
+    float: right;
+    margin-right: 2%;
+    margin-top: 1.5%;
+}
+
+#navigationMenu li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.pagetwo{
+    background-color: #eaeaea;
+    height: 631px;
+    width: auto;
+}

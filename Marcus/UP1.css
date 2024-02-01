@@ -1,0 +1,799 @@
+body{
+    background-image: url("UP Page.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    height: 940px;
+}
+
+/*header design*/
+
+header{
+    background-color: #ececec;
+    height: 90px;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#icon{
+    float: left;
+}
+
+img{
+    width: 150px;
+    height: 70px;
+    margin: -35%;
+    margin-left: 2%;
+}
+
+input{
+    cursor:pointer; 
+    background-color:#13e85e; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 3px; 
+    width: 130px; 
+    height: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#navigationMenu{
+    float: right;
+    margin-right: 2%;
+    margin-top: 1.5%;
+}
+
+#navigationMenu li{
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.background {
+    background-image: url("UP Page.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    width: 1183px;
+    height: 768px;
+}
+
+.pfbox {
+    position: absolute;
+    width: 1120px;
+    height: 200px;
+    left: 27px;
+    top: 115px;
+
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+
+.userIcon {
+    position: absolute;
+    background-image: url("UserProfile.png");
+    left: 70px;
+    top: 50px;
+    width: 112px;
+    height: 112px;
+}
+
+.rectUser {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 250px;
+    top: 10px;
+
+    background: #87CEEB;
+    border-radius: 100px;
+}
+
+.rectUser1 {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 250px;
+    top: 75px;
+
+    background: #87CEEB;
+    border-radius: 100px;
+}
+
+.rectUser2 {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 250px;
+    top: 140px;
+
+    background: #87CEEB;
+    border-radius: 100px;
+}
+
+.rectUser p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* identical to box height, or 80% */
+    
+    text-align: center;
+    line-height: 10px;
+    
+    color: #000000;
+}
+
+.rectUser1 p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* identical to box height, or 80% */
+    
+    text-align: center;
+    line-height: 10px;
+    
+    color: #000000;
+}
+
+.rectUser2 p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* identical to box height, or 80% */
+    
+    text-align: center;
+    line-height: 10px;
+    
+    color: #000000;
+}
+
+.edit {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    left: 750px;
+    top: 120px;
+    cursor: pointer;
+
+    background: #87CEEB;
+    border-radius: 100px;
+}
+
+.logout {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    left: 930px;
+    top: 120px;
+    cursor: pointer;
+
+    background: #FF0000;
+    border-radius: 100px;
+}
+
+.edit p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    /* identical to box height, or 120% */
+    cursor: pointer;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.logout p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    /* identical to box height, or 120% */
+    cursor: pointer;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.detailsBox {
+    position: absolute;
+    width: 1120px;
+    height: 530px;
+    left: 27px;
+    top: 350px;
+
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+
+.rectDB1 {
+    position: absolute;
+    width: 279px;
+    height: 51px;
+    left: 53px;
+    top: 30px;
+
+    background: #87CEEB;
+    border-radius: 100px;
+}
+
+.rectDB2 {
+    position: absolute;
+    width: 279px;
+    height: 51px;
+    left: 53px;
+    top: 100px;
+
+    background: #87CEEB;
+    border-radius: 100px;
+}
+
+.rectDB3 {
+    position: absolute;
+    width: 279px;
+    height: 51px;
+    left: 53px;
+    top: 170px;
+
+    background: #87CEEB;
+    border-radius: 100px;
+}
+
+.rectDB4 {
+    position: absolute;
+    width: 279px;
+    height: 51px;
+    left: 53px;
+    top: 240px;
+
+    background: #87CEEB;
+    border-radius: 100px;
+}
+
+.rectDB5 {
+    position: absolute;
+    width: 279px;
+    height: 51px;
+    left: 53px;
+    top: 310px;
+
+    background: #87CEEB;
+    border-radius: 100px;
+}
+
+.rectDB6 {
+    position: absolute;
+    width: 279px;
+    height: 51px;
+    left: 53px;
+    top: 380px;
+
+    background: #87CEEB;
+    border-radius: 100px;
+}
+
+.rectDB7 {
+    position: absolute;
+    width: 279px;
+    height: 51px;
+    left: 53px;
+    top: 450px;
+
+    background: #87CEEB;
+    border-radius: 100px;
+}
+
+.rectDB1 p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.rectDB2 p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.rectDB3 p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.rectDB4 p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.rectDB5 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.rectDB6 p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.rectDB7 p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.rectContent1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 700px;
+    left: 350px;
+    height: 51px;
+    top: 30px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.rectContent2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 700px;
+    left: 350px;
+    height: 51px;
+    top: 100px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.rectContent3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 700px;
+    left: 350px;
+    height: 51px;
+    top: 170px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.rectContent4 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 700px;
+    left: 350px;
+    height: 51px;
+    top: 240px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.rectContent5 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 700px;
+    left: 350px;
+    height: 51px;
+    top: 310px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.rectContent6a {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 335px;
+    left: 350px;
+    height: 51px;
+    top: 380px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.rectContent6b {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 335px;
+    left: 715px;
+    height: 51px;
+    top: 380px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.rectContent7 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 700px;
+    left: 350px;
+    height: 51px;
+    top: 450px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.rectContent1 p{
+    position: absolute;
+    left: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    
+    color: #000000;
+}
+
+.rectContent2 p{
+    position: absolute;
+    left: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    
+    color: #000000;
+}
+
+.rectContent3 p{
+    position: absolute;
+    left: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    
+    color: #000000;
+}
+
+.rectContent4 p{
+    position: absolute;
+    left: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    
+    color: #000000;
+}
+
+.rectContent5 p{
+    position: absolute;
+    left: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    
+    color: #000000;
+}
+
+.rectContent6a p{
+    position: absolute;
+    left: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    
+    color: #000000;
+}
+
+.rectContent6b p{
+    position: absolute;
+    left: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    
+    color: #000000;
+}
+
+.rectContent7 p{
+    position: absolute;
+    left: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    
+    color: #000000;
+}
+
+.edit-alert {
+    position: absolute;
+    width: 900px;
+    height: 300px;
+    left: 153px;
+    top: 320px;
+    visibility: hidden;
+    background: rgba(217, 217, 217, 0.9);
+
+    background: #000AFF;
+    border-radius: 17px;
+}
+
+.edit-alert p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    /* or 131% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.edit-alert i{
+    position:absolute;
+    left: 850px;
+    top: 20px;
+    cursor: pointer;
+    color: #FFFFFF
+}
+
+
+.open-popup {
+    visibility: visible;
+}
+
+.yes {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 150px;
+    top: 210px;
+
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+
+.yes p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 2px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.no {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 550px;
+    top: 210px;
+    cursor: pointer;
+
+    background: #000000;
+    border-radius: 100px;
+}
+
+.no p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 2px;
+    cursor: pointer;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.lo-alert {
+    position: absolute;
+    width: 900px;
+    height: 300px;
+    left: 153px;
+    top: 320px;
+    visibility: hidden;
+    background: rgba(217, 217, 217, 0.9);
+
+    background: #000AFF;
+    border-radius: 17px;
+}
+
+.lo-alert p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    /* or 131% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.lo-alert i {
+    position:absolute;
+    left: 850px;
+    top: 20px;
+    cursor: pointer;
+    color: #FFFFFF
+}
+
+.lo-alert .y {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 150px;
+    top: 210px;
+
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+
+.lo-alert .y p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 2px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.lo-alert .n {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 550px;
+    top: 210px;
+    cursor: pointer;
+
+    background: #000000;
+    border-radius: 100px;
+}
+
+.lo-alert .n p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 2px;
+    cursor: pointer;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.OPEN {
+    visibility: visible;
+}

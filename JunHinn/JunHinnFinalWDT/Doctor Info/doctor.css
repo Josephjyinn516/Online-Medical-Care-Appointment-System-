@@ -1,0 +1,418 @@
+body{
+    background-image: url(img/doctor-shows-contact-icons-emergency-medical-care-doctor-shows-contact-icons-emergency-medical-care-network-168988426.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*header design*/
+
+header{
+    background-color: #ececec;
+    height: 90px;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#icon{
+    float: left;
+}
+
+img{
+    width: 150px;
+    height: 70px;
+    margin: -35%;
+    margin-left: 2%;
+}
+
+
+input{
+    cursor:pointer; 
+    background-color:#13e85e; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 3px; 
+    width: 130px; 
+    height: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#navigationMenu{
+    float: right;
+    margin-right: 2%;
+    margin-top: 1.5%;
+}
+
+#navigationMenu li{
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.background {
+    background-image: url("Doctor page.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    width: 1183px;
+    height: 1000px;
+    opacity: 0.3;
+}
+
+h1 {
+    position: absolute;
+    width: 923.84px;
+    height: 79px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 10px;
+    text-align: right;
+
+    color: #000000;
+}
+
+#search {
+    position: absolute;
+    width: 594.68px;
+    height: 39px;
+    left: 295px;
+    top: 250px;
+    border-radius: 50px;
+    cursor: auto;
+
+    background-image: linear-gradient(to bottom right, #a8ff78, #78ffd6);
+
+}
+
+#Search_box i{
+    position: absolute;
+    top: 263px;
+    left: 850px;
+}
+
+
+.square {
+    position: absolute;
+    top: 340px;
+    left:30px;
+    background-image: linear-gradient(to bottom right, #16A085, #f4d03f);
+    border-radius: 10px;
+    width: 350px;
+    height: 450px;  
+}
+
+.square img {
+    position: absolute;
+    top: 135px;
+    left:8px;
+    border-radius: 10px;
+    width: 320px;
+    height: 320px; 
+}
+
+.square .docDetails {
+    position: absolute;
+    top: 340px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    width: 330px;
+    height: 100px;
+    left: 10px;
+}
+
+.square .docDetails p {
+    font-size: 20px;
+    position: absolute;
+    left:10px;
+}
+
+.btn {
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    top: 460px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, #a8ff78, #78ffd6);
+}
+
+.btn p {
+    text-align: center;
+    font-size: 28px;
+    line-height: 1px;
+}
+
+.square1 {
+    position: absolute;
+    top: 340px;
+    left:415px;
+    background-image: linear-gradient(to bottom right, #16A085, #f4d03f);
+    border-radius: 10px;
+    width: 350px;
+    height: 450px;  
+}
+
+.square1 img {
+    position: absolute;
+    top: 135px;
+    left:8px;
+    border-radius: 10px;
+    width: 320px;
+    height: 320px; 
+}
+
+.square1 .docDetails1 {
+    position: absolute;
+    top: 340px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    width: 330px;
+    height: 100px;
+    left: 10px;
+}
+
+.square1 .docDetails1 p {
+    font-size: 20px;
+    position: absolute;
+    left:10px;
+}
+
+.square2 {
+    position: absolute;
+    top: 340px;
+    left:800px;
+    background-image: linear-gradient(to bottom right, #16A085, #f4d03f);
+    border-radius: 10px;
+    width: 350px;
+    height: 450px;  
+}
+
+.square2 img {
+    position: absolute;
+    top: 135px;
+    left:8px;
+    border-radius: 10px;
+    width: 320px;
+    height: 320px; 
+}
+
+.square2 .docDetails2 {
+    position: absolute;
+    top: 340px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    width: 330px;
+    height: 100px;
+    left: 10px;
+}
+
+.square2 .docDetails2 p {
+    font-size: 20px;
+    position: absolute;
+    left:10px;
+}
+
+
+
+footer {
+    position: absolute;
+    width: 1183px;
+    height: 500px;
+    left: 0px;
+    top: 1000px;
+
+    background: #EBEBEB;
+}
+
+ec {
+    position: absolute;
+    width: 541px;
+    height: 64px;
+    left: 80px;
+    top: 61px;
+
+    /* H2 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    /* identical to box height, or 114% */
+
+
+    /* Text_Black */
+
+    color: #333333;
+}
+
+cn {
+    position: absolute;
+    width: 195px;
+    height: 32px;
+    left: 700px;
+    top: 37px;
+
+    /* H4 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+
+    /* Text_Black */
+
+    color: #333333;
+}
+
+desc {
+    position: absolute;
+    width: 474px;
+    height: 72px;
+    left: 80px;
+    top: 207px;
+
+    /* Text_Gray */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* Text_Gray */
+
+    color: #999999;
+}
+
+.rect1 {
+    position: absolute;
+    left: 700px;
+    width: 470px;
+    height: 48px;
+    top: 100px;
+    border-radius: 3px;
+    background: #FFFFFF;
+}
+
+.rect2 {
+    position: absolute;
+    left: 700px;
+    width: 470px;
+    height: 48px;
+    top: 180px;
+    border-radius: 3px;
+    background: #FFFFFF;
+}
+
+.rect3 {
+    position: absolute;
+    left: 700px;
+    width: 470px;
+    height: 48px;
+    top: 260px;
+    border-radius: 3px;
+    background: #FFFFFF;
+}
+
+span {
+    position: absolute;
+    width: 184px;
+    height: 24px;
+    left: 16px;
+    top: 13px;
+
+    /* Text_Gray */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Text_Gray */
+
+    color: #999999;
+}
+
+.phone1 {
+    position: absolute;
+    left: 310px;
+    top: 13px;
+}
+
+.msg1 {
+    position: absolute;
+    left: 370px;
+    top: 14px;
+}
+
+.mail1 {
+    position: absolute;
+    left: 430px;
+    top: 13px;
+}
+
+.phone2 {
+    position: absolute;
+    left: 310px;
+    top: 13px;
+}
+
+.msg2 {
+    position: absolute;
+    left: 370px;
+    top: 14px;
+}
+
+.mail2 {
+    position: absolute;
+    left: 430px;
+    top: 13px;
+}
+
+.phone3 {
+    position: absolute;
+    left: 310px;
+    top: 13px;
+}
+
+.msg3 {
+    position: absolute;
+    left: 370px;
+    top: 14px;
+}
+
+.mail3 {
+    position: absolute;
+    left: 430px;
+    top: 13px;
+}

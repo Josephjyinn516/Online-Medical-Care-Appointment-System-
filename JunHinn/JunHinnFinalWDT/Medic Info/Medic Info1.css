@@ -1,0 +1,247 @@
+body{
+    background-image: url(img/doctor-shows-contact-icons-emergency-medical-care-doctor-shows-contact-icons-emergency-medical-care-network-168988426.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+header{
+    background-color: #ececec;
+    height: 90px;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+#signUp{
+    color: #ffffff;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#icon{
+    float: left;
+}
+
+img{
+    width: 150px;
+    height: 80px;
+    margin: -35%;
+    margin-left: 2%;
+    
+}
+
+input{
+    cursor:pointer; 
+    background-color:#13e85e; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 3px; 
+    width: 130px; 
+    height: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.background {
+    background-image: url("Medic Info.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    width: 1183px;
+    height: 768px;
+    opacity: 0.3;
+}
+
+
+.userBack {
+    position: absolute;
+    width: 118px;
+    height: 50px;
+    left: 1040px;
+    top: 20px;
+
+    background: #FDFD96;
+    border-radius: 20px;
+}
+
+.userIcon {
+    position: absolute;
+    left: 1060px;
+    top: 35px;
+}
+
+.cd {
+    position: absolute;
+    left: 1120px;
+    top: 35px;
+}
+
+ta {
+    position: absolute;
+    width: 648px;
+    height: 95px;
+    left: 30px;
+    top: 100px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    display: flex;
+
+    color: #000000;
+}
+
+ua {
+    position: absolute;
+    width: 571px;
+    height: 95px;
+    left: 630px;
+    top: 100px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    display: flex;
+
+    color: #000000;
+}
+
+.tCard {
+    position: absolute;
+    width: 520px;
+    height: 650px;
+    left: 30px;
+    top: 170px;
+
+    background: linear-gradient(180deg, #13E85E 0%, rgba(19, 232, 94, 0) 100%);
+    border-radius: 30px;
+}
+
+.upCard {
+    position: absolute;
+    width: 520px;
+    height: 650px;
+    left: 630px;
+    top: 170px;
+
+    background: linear-gradient(180deg, #13E85E 0%, rgba(19, 232, 94, 0) 100%);
+    border-radius: 30px;
+}
+
+tDay {
+    position: absolute;
+    width: 101px;
+    height: 80px;
+    left: 30px;
+    top: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 61px;
+    display: flex;
+
+    color: #000000;
+}
+
+tm {
+    position: absolute;
+    width: 264px;
+    height: 80px;
+    left: 30px;
+    top: 65px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+ty {
+    position: absolute;
+    width: 264px;
+    height: 80px;
+    left: 130px;
+    top: 65px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.line {
+    position: absolute;
+    width: 450px;
+    height: 0px;
+    left: 30px;
+    top: 140px;
+
+    border: 1px solid #000000;
+}
+
+.acceptedApp {
+    position: absolute;
+    width: 475px;
+    height: 105px;
+    left: 20px;
+    top: 155px;
+
+    background: #DFAEAE;
+    border-radius: 30px;
+}
+
+.btn {
+    position: absolute;
+    cursor: pointer;
+    left: 960px;
+    top: 36px;
+}
+
+.btn1 {
+    position: absolute;
+    left: 1000px;
+    top: 36px;
+    cursor: pointer;
+}
+
+.box {
+    position: absolute;
+    width: 1145px;
+    height: 800px;
+    background: #ececec;
+}
